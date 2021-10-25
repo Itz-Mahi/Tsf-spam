@@ -15,7 +15,7 @@
 ## ✧✧ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴜᴋᴏ✧✧
 
  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FDARKAMAN6%2FKGF-MULTI-SPAM-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?templat=https://github.com/T5FR0CK5T4R/Tsf-spam) 
 
 ------------------------------------------------
 
