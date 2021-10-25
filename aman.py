@@ -1805,7 +1805,8 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f" 𝗧𝗦𝗙 !\n`{ms}` ms{ALIVE_NAME} "𝙅𝙊 𝙇𝙀𝙂𝘼 𝙏𝙎𝙁 𝙎𝙀 𝙆𝙃𝙐𝙎𝙆𝙄 𝙈𝘼𝘼 𝘾𝙃𝙊𝘿 𝘿𝙀𝙉𝙂𝙀 𝙐𝙎𝙆𝙄 👅👿)
+        await event.edit(f" 𝙋𝙄𝙉𝙂 !\n`{ms}` ms{𝗥𝗔𝗣𝗦𝗧𝗔𝗥} ❀❀ 𝗧𝗦𝗙 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧❀❀")
+
 
 
 
