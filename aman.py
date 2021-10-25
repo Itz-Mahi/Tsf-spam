@@ -1801,7 +1801,7 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = !"
+        text = " 𝗧𝗦𝗙 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧🔥"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
@@ -2020,7 +2020,7 @@ text = """
 
 print(text)
 print("")
-print("❀❀ɮօȶ ʀɛǟɖʏ ɦǟɨ ʋɨʍʀօ❀❀")
+print("❀𝗧𝗦𝗙 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬 𝗛𝗔𝗜!❀")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
