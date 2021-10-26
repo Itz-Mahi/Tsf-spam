@@ -1801,11 +1801,12 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = " 𝗧𝗦𝗙 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧🔥"
+        text = "❀❀𝗧𝗦𝗙 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧❀❀!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f" 𝙋𝙄𝙉𝙂 !\n`{ms}` ms{ოęgāşţāŗ} ❀❀ 𝗧𝗦𝗙 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧❀❀")
+        await event.edit(f" 𝙋𝙄𝙉𝙂 !\n`{ms}` ms{ALIVE_NAME} ❀𝗧𝗦𝗙 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧❀❀")
+
 
 
 
