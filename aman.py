@@ -1801,11 +1801,11 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "❀❀𝗥𝗢𝗖𝗞𝗦𝗧𝗔𝗥 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧❀❀!"
+        text = "𝗠𝗔𝗔 𝗖𝗛𝗢𝗗 𝗗𝗨𝗡𝗚𝗔 𝗔𝗔𝗝😈🔥!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f" 𝗥𝗢𝗖𝗞𝗦𝗧𝗔𝗥 !\n`{ms}` ms{ALIVE_NAME} ❀❀𝗥𝗢𝗖𝗞𝗦𝗧𝗔𝗥 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧❀❀")
+        await event.edit(f" 𝗥𝗔𝗣𝗦𝗧𝗔𝗥 !\n`{ms}` ms{ALIVE_NAME} 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗 𝗗𝗨𝗡𝗚𝗔 𝗔𝗔𝗝😈🔥")
 
 
 
