@@ -1805,7 +1805,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f" 𝗧𝗘𝗥𝗔 𝗕𝗔𝗔𝗣 𝗥𝗔𝗣𝗦𝗧𝗔𝗥 !\n`{ms}` {ALIVE_NAME} 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗 𝗗𝗨𝗡𝗚𝗔 𝗔𝗔𝗝😈🔥")
+        await event.edit(f" #𝗣𝗞𝗠𝗞𝗕💔🔥!\n`{ms}` {ALIVE_NAME} 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗 𝗗𝗨𝗡𝗚𝗔 𝗔𝗔𝗝😈🔥")
 
 
 
@@ -1847,7 +1847,7 @@ async def ping(e):
 @boy.on(events.NewMessage(incoming=True, pattern=r"\*restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n𝗥𝗨𝗞 𝗝𝗔𝗔 𝗟𝗪𝗗𝗘..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
